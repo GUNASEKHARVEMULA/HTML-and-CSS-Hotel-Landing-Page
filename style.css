@@ -43,19 +43,51 @@
     
 
 }
-.about-us{
-    float: left;
-    width: 50%;
-    margin: 10px 10px;
-    text-align: center;
 
+ul li{
+    list-style: none;
 }
-.amenities{
-   text-align: center;
 
-}
-.amenities ul{
+
+/* .amenities ul{
     margin-top: 10px;
     text-align: left;
     display: inline-block;
+ } */
+.about-heading, .know-more-container,.room-heading {
+    text-align: center;
+}
+
+ .about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }
+ .about-us{
+    width: 50%;
+ }
+
+ .fa-solid{
+    margin-right: 10px;
+ }
+
+ .room-type-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: opx 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+ }
+ .room-images img{
+    height: 400px;
+    width: 600px;
+ }
+
+ .room-list h4{
+    font-size: 20px;
+    margin: 5px;
+ }
+ .room-list{
+    margin: 10px 20px;
  }
