@@ -54,7 +54,7 @@ ul li{
     text-align: left;
     display: inline-block;
  } */
-.about-heading, .know-more-container,.room-heading {
+.about-heading, .know-more-container,.room-heading,.form-heading{
     text-align: center;
 }
 
@@ -90,4 +90,41 @@ ul li{
  }
  .room-list{
     margin: 10px 20px;
+ }
+
+ .help-button{
+    background-color: brown;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20px;
+    right:0;
+ }
+ .help-button h4{
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+ }
+ form{
+    border: 2px solid gray;
+    width: max-content;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px 0px;
+ }
+ .form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ label{
+    font-size: 20px;
+ }
+ input,select{
+    padding: 5px;
+    font-size: 15px;;
+ }
+ .Book-button{
+    margin-left: 35%;
  }
