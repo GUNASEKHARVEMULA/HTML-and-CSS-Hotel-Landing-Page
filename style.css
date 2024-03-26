@@ -31,7 +31,7 @@ a{
 
 
 .hero-section{
-    background-image: url('LECTURES PRACTICE\HTML-and-CSS-Hotel-Landing-Page\hero-image.jpg');
+   background-image: url(hero-image.jpg);
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.4);
@@ -252,3 +252,43 @@ ul li{
    height: 80%;
 }
  
+
+.login-container {
+   width: 350px;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+button {
+   display: block;
+   width: 100%;
+   margin-bottom: 15px;
+   padding: 10px;
+   border-radius: 3px;
+   border: 1px solid #ccc;
+ 
+
+}
+
+button {
+   background-color: #007bff;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+}
+
+.error-msg {
+   color: red;
+   margin-top: 10px;
+   text-align: center;
+   font-size: 14px;
+}
