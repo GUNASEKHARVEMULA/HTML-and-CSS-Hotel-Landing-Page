@@ -31,7 +31,7 @@ a{
 
 
 .hero-section{
-    background-image: url(hero-image.jpg);
+    background-image: url('LECTURES PRACTICE\HTML-and-CSS-Hotel-Landing-Page\hero-image.jpg');
     background-size: cover;
     background-blend-mode: overlay;
     background-color: rgba(0, 0, 0, 0.4);
