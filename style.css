@@ -250,5 +250,15 @@ ul li{
 }
 .MobileApp-content{
    height: 80%;
+   
+   
 }
  
+.Features-list {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 5px; 
+   margin-bottom: 10px;
+}
