@@ -44,3 +44,49 @@ button {
     text-align: center;
     font-size: 14px;
 }
+/* Style for the body to set the background image */
+body {
+    background-image: url('hotel-image.jpg');
+    background-size: cover;
+}
+
+/* Style for the login container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* White background with opacity */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Style for the login form elements */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"],
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    background-color: #007bff; /* Blue color for the login button */
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}
+
+.error-msg {
+    color: red;
+    margin-top: 10px;
+}
